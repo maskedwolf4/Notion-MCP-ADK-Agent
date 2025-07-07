@@ -3,8 +3,6 @@ This Project is about building a Notion Agent using MCP Server and Google ADK
 
 # Notion Agent with Google ADK & MCP Architecture
 
-This README provides an overview of your Notion Agent built using Google Agent Development Kit (ADK) and the Model Context Protocol (MCP) architecture. It covers the project purpose, architecture, setup instructions, and essential environment variables.
-
 ---
 
 ## **Project Overview**
@@ -17,7 +15,7 @@ The agent can read, analyze, and update Notion databases or pages, making it eas
 ## **Architecture**
 
 - **Google ADK**: Provides the agent framework, handling model orchestration, tool integration, and deployment.
-- **MCP (Model Context Protocol)**: Acts as the bridge between the agent and Notion, exposing Notion’s API actions (like reading, creating, and updating pages) as tools the agent can use[1][2][3][8].
+- **MCP (Model Context Protocol)**: Acts as the bridge between the agent and Notion, exposing Notion’s API actions (like reading, creating, and updating pages) as tools the agent can use.
 - **Notion MCP Server**: Official Notion integration that wraps Notion API endpoints and exposes them to your agent via MCP.
 
 **Layers:**
